@@ -10,3 +10,11 @@ but we can use # as above
 =end
 
 puts "hello world".upcase #HELLOWORLD
+
+=begin
+we can chain all the methods together, like this:
+name.method1.method2.method3
+=end
+
+name = "TaYaNne"
+puts name.upcase.reverse
