@@ -181,3 +181,13 @@ puts "learn to code".include?("CODE") #doesn't works for upcase letters
 puts "learn to code".include?("code")
 puts "learn to code!!!".include?("!")
 #puts 23.include(23) #doesn't works for numbers, only strings
+
+puts "makers".upcase.reverse.next.swapcase #srekan
+
+#CHALLENGE 3
+bank_balance = 100
+if bank_balance > 100
+    return puts "You can go out for dinner"
+else
+    return puts "Stay at home"
+end
