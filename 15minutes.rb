@@ -1,4 +1,4 @@
-puts "Tayanne".methods
+"Tayanne".methods
 #how can you sort these methods into alphabetical order?
 
 =begin
@@ -170,3 +170,14 @@ singleton_methods
 !=
 
 =end
+
+#CHALLENGE 1
+puts "tayanne".reverse
+puts "tayanne".length
+puts "tayanne".capitalize
+
+#CHALLENGE 2
+puts "learn to code".include?("CODE") #doesn't works for upcase letters
+puts "learn to code".include?("code")
+puts "learn to code!!!".include?("!")
+#puts 23.include(23) #doesn't works for numbers, only strings
