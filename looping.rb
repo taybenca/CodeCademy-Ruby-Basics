@@ -5,4 +5,10 @@ while i < 11 do
     i = i+1 # or i += 1
 end
 
+
 #looping with until
+i = 1
+until i == 11 do
+    print i 
+    i += 1
+end
