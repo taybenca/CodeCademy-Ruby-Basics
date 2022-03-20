@@ -172,22 +172,31 @@ singleton_methods
 =end
 
 #CHALLENGE 1
-puts "tayanne".reverse
-puts "tayanne".length
-puts "tayanne".capitalize
+"tayanne".reverse #ennayat
+"tayanne".length #7
+"tayanne".capitalize #Tayanne
 
 #CHALLENGE 2
-puts "learn to code".include?("CODE") #doesn't works for upcase letters
-puts "learn to code".include?("code")
-puts "learn to code!!!".include?("!")
+"learn to code".include?("CODE") #false, doesn't works for upcase letters
+"learn to code".include?("code") #true
+"learn to code!!!".include?("!") #true
 #puts 23.include(23) #doesn't works for numbers, only strings
 
-puts "makers".upcase.reverse.next.swapcase #srekan
+"makers".upcase.reverse.next.swapcase #srekan
 
 #CHALLENGE 3
 bank_balance = 100
-if bank_balance > 100
-    return puts "You can go out for dinner"
-else
-    return puts "Stay at home"
-end
+#def dinner_plans
+    if bank_balance > 100
+        puts "You can go out for dinner"
+    else
+        puts "Stay at home"
+    end 
+#end
+
+#CHALLANGE 4
+#write the method that will let you say "happy birthday" to someone 3 times.
+name = "Tay"
+    print "Happy Birthday, #{name}"
+
+
