@@ -197,6 +197,8 @@ bank_balance = 100
 #CHALLANGE 4
 #write the method that will let you say "happy birthday" to someone 3 times.
 name = "Tay"
-    print "Happy Birthday, #{name}"
+    3.times do 
+        puts "Happy Birthday, #{name}"
+    end
 
 
