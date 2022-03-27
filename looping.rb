@@ -1,14 +1,31 @@
 #looping with while
-i = 1
-while i < 11 do
-    puts i
-    i = i+1 # or i += 1
+x = 1
+while x < 11 do
+    print x
+    x = x+1 # or i += 1
 end
 
 
 #looping with until
-i = 1
-until i == 11 do
-    print i 
-    i += 1
+k = 1
+until k == 11 do
+    puts k 
+    k += 1
 end
+
+
+#looping with for
+i = 1
+for i in 1..10 do
+    print i
+    i +=1
+end
+
+#loop the loop with loop
+i = 0
+loop do
+  i +=1
+  puts "Ruby"
+  break if i > 2
+end
+
