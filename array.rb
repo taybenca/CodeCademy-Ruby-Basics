@@ -14,3 +14,9 @@ secret_identities = {
 secret_identities.each {|personagem, ator|
 puts "#{personagem}: #{ator}"
 }
+
+numbers = [1, 2, 3, 4, 5]
+numbers.each {
+  |n|
+  puts n*n
+}
