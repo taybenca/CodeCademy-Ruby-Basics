@@ -1,5 +1,6 @@
-"Tayanne".methods
+#"Tayanne".methods
 #how can you sort these methods into alphabetical order?
+puts methods.sort!
 
 =begin
 
