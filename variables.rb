@@ -12,3 +12,7 @@ case language
     when "Ruby" then puts "Web apps!"
 else puts "I don't know!"
 end     
+
+def square(n)
+    n*n
+end
