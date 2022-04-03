@@ -76,6 +76,7 @@ end
 
 puts summation(8) == 36
 
+=begin
 def hydrate(s)
     result = ""
     elements = s.split(" ") #quando achar o numero integer, somar 
@@ -85,3 +86,7 @@ def hydrate(s)
         
 end 
 print hydrate("1 beer, 2 vinager")
+=end
+
+
+
