@@ -25,4 +25,11 @@ puts "Hello world 123".gsub(/[^a-zA-Z0-9]/, '')
 #other solution
 def panagram?(string)
     ('a'..'z').all? { |x| string.downcase.include? (x) } 
-  end
+end
+
+def string_clean(string)
+    char = string.gsub(/[0-9]/, '')
+    return char
+end
+
+puts string_clean("This6565 Looks G00ood") == "This Looks Good"

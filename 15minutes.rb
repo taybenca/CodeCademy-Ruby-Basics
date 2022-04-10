@@ -1,6 +1,6 @@
 #"Tayanne".methods
 #how can you sort these methods into alphabetical order?
-puts methods.sort!
+#puts methods.sort!
 
 =begin
 
@@ -175,7 +175,8 @@ singleton_methods
 #CHALLENGE 1
 "tayanne".reverse #ennayat
 "tayanne".length #7
-"tayanne".capitalize #Tayanne
+puts "tayanne christine".capitalize #Tayanne christine
+puts "tayanne christine".titleize #Tayanne christine
 
 #CHALLENGE 2
 "learn to code".include?("CODE") #false, doesn't works for upcase letters
