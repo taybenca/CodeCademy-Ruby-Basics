@@ -60,3 +60,19 @@ end
 puts rps("scissors", "paper") == "Player 1 won!"
 puts rps("scissors", "rock") == "Player 2 won!"
 puts rps("paper", "paper") == "Draw!"
+
+
+
+#return the number of vowels
+def get_count(input_str)
+  if input_str == ""
+    return 0
+  else
+    vowels = input_str.count "\\aeiou"
+  end
+    vowels
+end
+
+puts get_count("abracadabra") == 5
+puts get_count("") == 0
+puts get_count("pear tree") == 4

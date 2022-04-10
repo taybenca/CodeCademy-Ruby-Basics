@@ -20,3 +20,13 @@ numbers.each {
   |n|
   puts n*n
 }
+
+
+#Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
+def remove_every_other(arr)
+  new_arr = arr.reject {|v| arr.index(v).odd?}
+  return new_arr
+end
+
+puts remove_every_other([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) # == [1, 3, 5, 7, 9]
+puts remove_every_other(["Keep", "Remove", "Keep", "Remove", "Keep"]) # == ["Keep", "Keep", "Keep"]
