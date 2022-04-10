@@ -19,3 +19,12 @@ name.method1.method2.method3
 name = "TaYaNne"
 puts name.upcase.reverse
 puts("I am happy", "I am coding") #multiple arguments in the same method. With or without ()
+
+def get_age (age)
+    only_age = age.split("")
+    return only_age[0].to_i
+end
+
+print get_age("5 years old")
+
+
