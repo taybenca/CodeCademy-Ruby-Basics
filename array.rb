@@ -30,3 +30,34 @@ end
 
 puts remove_every_other([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) # == [1, 3, 5, 7, 9]
 puts remove_every_other(["Keep", "Remove", "Keep", "Remove", "Keep"]) # == ["Keep", "Keep", "Keep"]
+
+
+def maps(arr)
+  new_arr = arr.each {|n| n*2}
+  return new_arr
+end
+
+puts maps([1,2,3])
+
+
+def splt(str)
+  arr = str.split("").join
+  return arr
+end
+
+
+
+
+def hydrate(s)
+  numbers = []
+  find_n = s.split(" ")
+  print find_n
+  find_n.each {|n| 
+    if n is_a? Integer
+      numbers = n
+    end
+  }
+  numbers
+end
+
+puts hydrate("5 beers and 4 wines")
