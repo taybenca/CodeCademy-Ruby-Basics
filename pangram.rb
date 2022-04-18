@@ -33,3 +33,14 @@ def string_clean(string)
 end
 
 puts string_clean("This6565 Looks G00ood") == "This Looks Good"
+
+arr = %w[a b c d e f g h i j k]
+
+def every_other (str)
+    arr = str.split("")
+    arr.select { |x| 
+        arr.index(x) % 2 == 0
+    }.join("")
+end 
+
+print every_other("abcdefg") 
